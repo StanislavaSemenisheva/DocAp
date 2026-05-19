@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>BarcodeGenerator</class>
+ <widget class="QWidget" name="BarcodeGenerator">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>642</width>
+    <height>485</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QPushButton" name="sendBarcodeButton">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>440</y>
+     <width>281</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Отправить код</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>20</y>
+     <width>471</width>
+     <height>411</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_2">
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <widget class="QLabel" name="label">
+        <property name="font">
+         <font>
+          <pointsize>15</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>Код заказа</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_2">
+        <property name="text">
+         <string>Информация о заказе:</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="medicineNameLabel">
+        <property name="text">
+         <string>Лекарство:</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="totalPriceLabel">
+        <property name="text">
+         <string>Сумма:</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <widget class="QLabel" name="barcodeLabel_2">
+      <property name="text">
+       <string>Код заказа:</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="barcodeLabel">
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/icons">
+        <file>blue_man.png</file>
+        <file>doctor.png</file>
+        <file>free-icon-font-users-alt.png</file>
+        <file>pharmacy.png</file>
+        <file>icons8.png</file>
+        <file>plastyr.png</file>
+    </qresource>
+</RCC>
